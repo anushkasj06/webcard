@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    background: rgba(229, 226, 226, 0.219);
+    border-color: rgb(234, 234, 234);
+    box-shadow: 2px 8px 5px 1px  lightblue;
+    border-radius: 30px;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.photo{
+    background: rgb(157, 216, 244);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+.name h2{
+    font-size: 26px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    gap:30px;
+
+}
+
+
+.linkdin{
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 4px 0px rgba(139, 189, 201, 0.68);
+    font-size: 25px;
+    background-image: transparent;
+}
+
+.github{
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 4px 0px rgba(139, 189, 201, 0.68);
+    font-size: 25px;
+    background-image: transparent;
+}
+
+.icon i{
+    color: black;
+    font-size: 27px;
+}
+
+@media (max-width:786px){
+    .card{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+
+    }
+}
